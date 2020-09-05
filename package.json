@@ -1,16 +1,24 @@
 {
-    "name": "youtube-music-scraping",
-    "version": "1.0.0",
-    "main": "src/index.js",
-    "license": "MIT",
-    "description": "YouTube Music Data Scraping",
-    "keywords": [
-      "YouTube Music",
-      "Scraping"
-    ],
-    "author": {
-      "email": "gsbenevides2@gmail.com",
-      "name": "Guilherme da Silva Benevides"
-    },
-    "repository": "https://github.com/gsbenevides2/youtube-music-scraping"
+  "name": "youtube-music-scraping",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "description": "YouTube Music Data Scraping",
+  "keywords": [
+    "YouTube Music",
+    "Scraping"
+  ],
+  "scripts": {
+    "start":"node src/server.js",
+    "dev": "tsnd --cls --transpile-only --respawn --ignore-watch node_modules src/index.ts"
+  },
+  "author": {
+    "email": "gsbenevides2@gmail.com",
+    "name": "Guilherme da Silva Benevides"
+  },
+  "repository": "https://github.com/gsbenevides2/youtube-music-scraping",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
   }
+}
