@@ -1,0 +1,16 @@
+{
+    "name": "youtube-music-scraping",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT",
+    "description": "YouTube Music Data Scraping",
+    "keywords": [
+      "YouTube Music",
+      "Scraping"
+    ],
+    "author": {
+      "email": "gsbenevides2@gmail.com",
+      "name": "Guilherme da Silva Benevides"
+    },
+    "repository": "https://github.com/gsbenevides2/youtube-music-scraping"
+  }
